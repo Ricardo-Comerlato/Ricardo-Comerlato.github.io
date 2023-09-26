@@ -1,0 +1,92 @@
+* {
+    margin: 0;      /*Reset geral de margin e padding (irá atuar sobre todos os elementos da página*/
+    padding: 0;
+}
+
+html, body {
+    height: 100%; /* define-se o html e o body com altura de 100% para que o navegador não entenda que o efeito de gradiente deva assumir a altura de algum elemento da página (como uma imagem, por exemplo) */ 
+}
+
+body {
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(7,24,122,1) 100%); /* código gerado em https://cssgradient.io/  */
+    color: white; /* todos textos da página ficarão na cor branca */
+}
+
+a {
+    text-decoration: none;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 5px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex; /* Serve apenas para disposição de elementos um ao lado do outro. */
+    justify-content:center;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.social-itens {
+    margin-left: 10px;
+}
+
+.social img {
+    width: 33px;
+}
+
+.links-list {
+    margin-top: 20px;
+}
+
+.links-itens {
+    margin: 0 auto; /* Para centralizar elementos não textuais. */
+    list-style: none;
+    width: 350px;
+    background-color: white;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px white;
+}
+
+.titulo-curso {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(7,24,122);
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.descreve-curso {
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: grey;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
